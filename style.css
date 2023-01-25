@@ -1,0 +1,45 @@
+body{
+    margin:0;
+    background-image: url("images/bg.jpg");
+}
+.container{
+
+    margin-top: 50px;
+    border:100px;
+    background-color: white;
+    min-height: 50vh;
+}
+.task-tabs{
+    display: flex;
+    border-bottom: 1px solid lightgray;
+    position: relative;
+}
+.task-tabs div{
+    padding:1em;
+}
+.task-area{
+    border: 1px solid lightgray;
+}
+#under-line{
+    height:4px;
+    background-color: #8CC8B6;
+    position:absolute;
+    width: 80px;
+    left:0px;
+    top:52px;
+    padding:0px
+
+}
+.video{
+    width: 100%;
+    max-width: 900px;
+    margin: 30px auto;
+    border-radius: 30px;
+    
+    padding: 40px;
+    
+}
+.jupiter-image{
+   margin-left: 50px;
+   margin-top: 50px;
+}
