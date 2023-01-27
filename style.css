@@ -2,6 +2,7 @@ body{
     margin:0;
     background-image: url("images/bg.jpg");
     
+
 }
 .container{
 
@@ -10,6 +11,12 @@ body{
     background-color: white;
     min-height: 50vh;
 }
+
+@media(max-width:767px){
+    html,body{background-color: blue;}
+}
+
+
 .task-tabs{
     display: flex;
     border-bottom: 1px solid lightgray;
