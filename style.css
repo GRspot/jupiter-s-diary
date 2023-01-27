@@ -1,6 +1,7 @@
 body{
     margin:0;
     background-image: url("images/bg.jpg");
+    
 }
 .container{
 
@@ -37,6 +38,7 @@ body{
     border-radius: 30px;
     
     padding: 40px;
+    cursor:url(images/panda.cur), auto;
     
 }
 .jupiter-image{
@@ -45,4 +47,35 @@ body{
 }
 .counter{
     margin-left: 1000px;
+}
+.task-tabs div{
+    cursor: pointer;
+    cursor:url(images/panda.cur), auto;
+   
+}
+
+*{
+    cursor:url(images/panda.cur), auto;
+}
+.tlink{
+    margin-left: 30px;
+    color: blueviolet;
+}
+.nlink{
+   margin-left: 20px;
+   position: relative;
+   top: 30px;
+   color: blueviolet;
+}
+.inlink{
+    margin-left: 20px;
+    position: relative;
+    top: 10px;
+    color: blueviolet;  
+}
+.plink{
+    margin-left: 20px;
+    position: relative;
+    top: -25px;
+    color: blueviolet; 
 }
